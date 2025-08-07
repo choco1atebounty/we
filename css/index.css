@@ -517,6 +517,19 @@ nav {
     background-color: #E5AFA9;
 }
     
+    .btn_close {
+    border: 8px solid;
+    background-color: #EDEBD4;
+    border-radius: 40px;
+    color: #6C4C3A;
+    font-family: "Desyatiy";
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    border-color: #E5AFA9;
+    cursor: pointer;
+    }
+    
     
     .goals_header {
     background-color: #C9D4A0;
