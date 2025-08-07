@@ -164,8 +164,8 @@ nav {
 }
 
 .img_story img {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 
 .button_story {
@@ -362,7 +362,7 @@ nav {
 .cat_3 {
     background-color: #C9D4A0;
     justify-content: center;
-    align-content: center;
+    align-content: end;
     width: 60px;
     -webkit-border-radius: 50px;
     display: flex;
@@ -371,6 +371,7 @@ nav {
     margin-right: 20px;
     align-items: center;
     font-family: Inter;
+
 }
 
 .cat_3 img {
@@ -406,6 +407,59 @@ nav {
     opacity: 60%;
     font-size: 0.8rem;
 }
+    
+    .text_me2 {
+    color: #fff;
+    display: block;
+    background-color: #2C2D2F;
+    -webkit-border-radius: 30px;
+    height: 120px;
+    width: 27%;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-content: center; 
+    align-items: center;
+    font-family: Inter;
+    text-transform: none;
+    font-size: 1.2rem;
+           margin-left: 80px;
+    }
+    
+    .text_me3 {
+    color: #fff;
+    display: block;
+    background-color: #2C2D2F;
+    -webkit-border-radius: 30px;
+    height: 60px;
+    width: 27%;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-content: center; 
+    align-items: center;
+    font-family: Inter;
+    text-transform: none;
+    font-size: 1.2rem;
+    margin-left: 80px;
+    }
+    
+        .text_me4 {
+    color: #fff;
+    display: block;
+    background-color: #2C2D2F;
+    -webkit-border-radius: 30px;
+    height: 60px;
+    width: 27%;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-content: center; 
+    align-items: center;
+    font-family: Inter;
+    text-transform: none;
+    font-size: 1.2rem;
+    }
 
 .you {
     align-items: end;
@@ -441,6 +495,29 @@ nav {
     font-size: 0.8rem;
 }
     
+    
+    .button_memoriesss {
+    border: 8px solid;
+    background-color: #EDEBD4;
+    border-radius: 40px;
+    color: #6C4C3A;
+    font-family: "Desyatiy";
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    border-color: #E5AFA9;
+    cursor: pointer;
+    height: 70px;
+    transition: 0.5s ease;
+}
+    
+    .button_memoriesss:hover {
+    transform: scale(1.2);
+    border-color: #EDEBD4;
+    background-color: #E5AFA9;
+}
+    
+    
     .goals_header {
     background-color: #C9D4A0;
     height: 80px;
@@ -468,8 +545,15 @@ nav {
     text-align: center;
     border-color: #E5AFA9;
     align-content: center;
+    transition: 0.5s ease;
     }
-    
+
+    .header_g1:hover {
+    transform: scale(1.2);
+    border-color: #EDEBD4;
+    background-color: #E5AFA9;
+    }
+
     .header_g2 {
     height: 80px;
     border: 8px solid;
@@ -483,6 +567,13 @@ nav {
     text-align: center;
     border-color: #E5AFA9;
     align-content: center;
+    transition: 0.5s ease;
+    }
+
+    .header_g2:hover {
+    transform: scale(1.2);
+    border-color: #EDEBD4;
+    background-color: #E5AFA9;
     }
     
     .text25_block {
@@ -504,7 +595,7 @@ nav {
         -webkit-border-radius: 50px;
         height: 250px;
         margin: 80px;
-        text-align: start;
+        text-align: end;
         align-content: center;
         line-height: 2;
         color: #534D25;
@@ -513,7 +604,6 @@ nav {
     .text26 {
         margin-bottom: 60px;
     }
-    
     
 }
 
